@@ -260,7 +260,7 @@ class DualNetworkProber(context: Context) {
                 val wifiInfo = (capabilities?.transportInfo as? WifiInfo)
                     ?: runCatching { wifiManager?.connectionInfo }.getOrNull()
                 val rawSsid = wifiInfo?.ssid?.trim('"')
-                if (!rawSsid.isNullOrBlank() && rawSsid != "<unknown ssid>" && rawSsid != WifiManager.UNKNOWN_SSID) {
+                if (!rawSsid.isNullOrBlank() && !rawSsid.equals("<unknown ssid>", ignoreCase = true)) {
                     rawSsid
                 } else {
                     "Wi-Fi"

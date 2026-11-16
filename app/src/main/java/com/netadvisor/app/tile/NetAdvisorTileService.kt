@@ -46,9 +46,9 @@ class NetAdvisorTileService : TileService() {
             repository.setEnabled(nextEnabled)
 
             if (nextEnabled) {
-                NetMonitorService.start(this@NetMonitorService)
+                NetMonitorService.start(this@NetAdvisorTileService)
             } else {
-                NetMonitorService.stop(this@NetMonitorService)
+                NetMonitorService.stop(this@NetAdvisorTileService)
             }
 
             val snapshot = repository.getSnapshot()
