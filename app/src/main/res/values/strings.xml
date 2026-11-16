@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetAdvisor</string>
+    <string name="tile_label">NetAdvisor</string>
+    <string name="channel_service_name">Background Monitoring</string>
+    <string name="channel_service_description">Quiet status notification while NetAdvisor monitors Wi-Fi and Mobile Data.</string>
+    <string name="channel_alerts_name">Faster Network Alerts</string>
+    <string name="channel_alerts_description">Alerts when switching between Wi-Fi and Mobile Data gives significantly faster speeds.</string>
+</resources>

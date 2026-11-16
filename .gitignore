@@ -1,0 +1,27 @@
+# Android / Gradle
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.log
